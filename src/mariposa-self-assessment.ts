@@ -14,8 +14,8 @@ import {customElement, property} from 'lit/decorators.js';
  * @slot - This element has a slot
  * @csspart button - The button
  */
-@customElement('my-element')
-export class MyElement extends LitElement {
+@customElement('mariposa-self-assessment')
+export class MariposaSelfAssessment extends LitElement {
   static override styles = css`
     :host {
       display: block;
@@ -57,12 +57,12 @@ export class MyElement extends LitElement {
    * @param name The name to say "Hello" to
    */
   sayHello(name: string): string {
-    return `Hello, ${name}`;
+    return `Helloosdo, ${name}`;
   }
 }
 
 declare global {
   interface HTMLElementTagNameMap {
-    'my-element': MyElement;
+    'mariposa-self-assessment': MariposaSelfAssessment;
   }
 }

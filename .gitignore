@@ -3,7 +3,7 @@ node_modules/
 /test/
 custom-elements.json
 # top level source
-my-element.js
-my-element.js.map
-my-element.d.ts
-my-element.d.ts.map
+mariposa-self-assessment.js
+mariposa-self-assessment.js.map
+mariposa-self-assessment.d.ts
+mariposa-self-assessment.d.ts.map

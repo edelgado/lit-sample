@@ -1,15 +1,15 @@
 ---
 layout: example.11ty.cjs
-title: <my-element> ⌲ Examples ⌲ Name Property
+title: <mariposa-self-assessment> ⌲ Examples ⌲ Name Property
 tags: example
 name: Name Property
 description: Setting the name property
 ---
 
-<my-element name="Earth"></my-element>
+<mariposa-self-assessment name="Earth"></mariposa-self-assessment>
 
 <h3>HTML</h3>
 
 ```html
-<my-element name="Earth"></my-element>
+<mariposa-self-assessment name="Earth"></mariposa-self-assessment>
 ```
